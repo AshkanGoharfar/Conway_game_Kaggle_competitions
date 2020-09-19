@@ -6,16 +6,16 @@ You're sections headers will be used to refrence location of destination
 - [How it's written](#How-it's-written)
 - [Goals](#Goals)
 
----
 
 # Running
 To run Conway game of life:
 
 Type input and output file name then type number of generation that you need
 
+```bash
 $ python Main.py input.txt output.txt 3
+```
 
----
 
 # How it's written
 
@@ -27,7 +27,6 @@ Last function is play. In play function we call live_neighbours function for eve
 Another python file is Main.py. In Main.py we call Game object to initiale the object with lenght of matrix and number of generation. 
 Also we use sys.argv to read command line and initialize game object parameters and read input file.
 
----
 
 # Goals
 
