@@ -1,4 +1,4 @@
-# Conway_game_Kaggle_competitions
+## Readme
 
 # Table of contents
 Sections headers will be used to reference the location of destination
@@ -25,7 +25,6 @@ In Main.py we call Game object. Game object initialize with two parameter N and 
 When you initialize T you can execute play function in game object for T step and store result in output.txt.
 Also we use sys.argv to read command line and initialize game object parameters and read input file.
 
-```
 
 # Goals
 
